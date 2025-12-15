@@ -50,6 +50,8 @@ git clone https://github.com/ghostleek/chergpt-basic-demo.git
 cd chergpt-basic-demo
 ```
 
+> **Note**: This is a demo repository. For the original project, see [String-sg/chergpt-basic](https://github.com/String-sg/chergpt-basic).
+
 ### 2. Install Dependencies
 
 ```bash
@@ -109,13 +111,11 @@ We recommend using **NeonDB** for your PostgreSQL database. [Get started here](h
 
 ### Step 3: Deploy to Streamlit Cloud
 
-**Quick Deploy**: [Click here to deploy from this repository](https://share.streamlit.io/)
-
-1. **Create accounts**: You'll be prompted to create a [Streamlit account](https://streamlit.io/) and connect your GitHub account.
+1. **Create accounts**: First, create a [Streamlit account](https://streamlit.io/) and connect your GitHub account if you haven't already.
 
    ![image](https://github.com/String-sg/chergpt-basic/assets/44336310/f6db1538-2481-4cd8-95e0-a45a02285768)
 
-2. **Configure deployment**: Select your forked repository and choose a custom domain for your app.
+2. **Deploy your app**: Go to [Streamlit Cloud](https://share.streamlit.io/), click "New app", select your forked repository (`ghostleek/chergpt-basic-demo`), set the main file path to `main.py`, and choose a custom domain for your app.
 
    ![image](https://github.com/String-sg/chergpt-basic/assets/44336310/8574e485-06fb-4b0c-b7d9-48755ce7bc8d)
 
